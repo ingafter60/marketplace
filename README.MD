@@ -40,8 +40,18 @@ https://github.com/ingafter60/marketplace
         
 ### 75. Analizando la velocidad de carga de nuestro Marketplace
 
+        PASS > About marketplace
+
 ### 76. Separar módulos fijos de la plantilla
 
+        modified:   README.MD
+        new file:   views/modules/footer.php
+        new file:   views/modules/header-mobile.php
+        new file:   views/modules/header.php
+        new file:   views/modules/newsletter.php
+        new file:   views/modules/top-banner.php
+        modified:   views/template.php
+        
 ### 77. Datos dinámicos para el "TOP BANNER"
 
 ### 78. Datos dinámicos para el Menú de Categorías
