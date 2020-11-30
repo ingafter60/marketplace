@@ -1,6 +1,5 @@
 # MEMBANGUN SEBUAH APPLIKASI LENGKAP MARKETPLACE MENGGUNAKAN PHP AND MYSQL
-https://github.com/ingafter60/mc-php-marketplace-jf
-
+https://github.com/ingafter60/marketplace
 
 ## Section 6: Creando el Marketplace en PHP nativo
 
@@ -15,10 +14,21 @@ https://github.com/ingafter60/mc-php-marketplace-jf
 
 ### 71. Creando un dominio virtual para el Marketplace
 
+	PASS
+
 ### 72. Conociendo la plantilla del Marketplace
+
+	PASS
 
 ### 73. Creación de la clase CURL para las peticiones a la API
 
+        modified:   README.MD
+        new file:   controllers/curl.controller.php
+        modified:   index.php
+        modified:   views/template.php
+
+        NOTE: API did not work
+		
 ### 74. Corrigiendo error de favicon.ico
 
 ### 75. Analizando la velocidad de carga de nuestro Marketplace

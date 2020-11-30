@@ -1,7 +1,25 @@
+<?php 
+
+/*=============================================
+Traer el total de productos
+=============================================*/
+
+$url = CurlController::api()."products";
+$method = "GET";
+$fields = array();
+$header = array();
+
+$totalProducts = CurlController::request($url, $method, $fields, $header);
+
+// echo '<pre>';
+// print_r($totalProducts );
+// echo '</pre>';
+
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <base href="views/">
     
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,6 +31,8 @@
     <meta name="description" content="">
 
 	<title>MarketPlace | Home</title>
+
+    <base href="views/">
 
 	<link rel="icon" href="img/template/icono.png">
 
