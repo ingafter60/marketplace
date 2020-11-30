@@ -30,7 +30,14 @@ https://github.com/ingafter60/marketplace
         NOTE: API did not work
 		
 ### 74. Corrigiendo error de favicon.ico
-
+        
+        >> error
+        favicon.ico:1 GET http://marketplace.test/favicon.ico 404 (Not Found)
+        >> got to https://convertico.com to convert an icon
+        >> when done, rename it to favicon.ico
+        modified:   README.MD
+        new file:   favicon.ico
+        
 ### 75. Analizando la velocidad de carga de nuestro Marketplace
 
 ### 76. Separar módulos fijos de la plantilla
